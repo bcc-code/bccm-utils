@@ -1,0 +1,110 @@
+table > thead > tr > th:first-of-type {
+	display: none;
+}
+
+table > tbody > tr > td:first-of-type {
+	display: none;
+}
+
+colgroup > col:nth-of-type(1) {
+	width: 100% !important;
+}
+
+colgroup > col:nth-of-type(2) {
+	width: 100% !important;
+}
+
+p {
+	display: none;
+}
+
+td > p {
+	display: block;
+}
+
+h1 {
+	margin: auto;
+	max-width: 800px;
+	width: 98%;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+tr > td:nth-of-type(2), tr > th:nth-of-type(2){
+	text-align: left;
+	font-size: 1.25em;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: -0.3px;
+	text-decoration: none;
+	text-transform: none;
+}
+
+tr > td:nth-of-type(3), tr > th:nth-of-type(3){
+	text-align: left;
+	font-size: 1.1em;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: none;
+	padding-bottom: 25px;
+}
+
+@media only screen
+and (max-device-width: 600px) {
+
+	body > h1 {
+		font-size: 4em;
+	}
+
+	table > tbody > tr > td:nth-of-type(2), table >  thead > tr > th:nth-of-type(2){
+		font-size: 3em;
+		line-height: 1.4em;
+	}
+
+	table > tbody > tr > td:nth-of-type(3), table > thead > tr > th:nth-of-type(3){
+		font-size: 2.8em;
+		line-height: 1.3em;
+	}
+
+}
+colgroup, tbody, table, thead, tr, td {
+	width: 100%;
+}
+
+table {
+	display: block;
+	width: 95%;
+	max-width: 800px;
+	padding-bottom: 120px;
+}
+
+body {
+	color: #FEFEFE;
+	font-family: "Barlow";
+
+	--color-tint-1: rgba(110, 176, 230, 1);
+	--color-tint-2: rgba(230, 60, 98, 1);
+	--color-tint-3: rgba(113, 210, 164, 1);
+	--color-on-tint: rgba(255, 255, 255, 1);
+	--color-label-1: rgba(254, 254, 254, 1);
+	--color-label-2: rgba(217, 224, 235, 1);
+	--color-label-3: rgba(180, 192, 210, 1);
+	--color-label-4: rgba(112, 124, 142, 1);
+	background-color: rgba(13, 22, 35, 1);
+	--color-background-1: rgba(13, 22, 35, 1);
+	--color-background-2: rgba(29, 40, 56, 1);
+	--color-separator-on-light: rgba(204, 221, 255, 0.1);
+	--color-light-1: rgba(230, 235, 242, 1);
+	--color-dark-transparent: rgba(24, 24, 24, 0.7);
+}
+
+table {
+	margin: auto;
+}
+
+td, th {
+	display: block;
+}
