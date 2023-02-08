@@ -27,7 +27,6 @@ process () {
 	cat "$SCRIPT_DIR/head.html" "$WORK/$2.temp.html" > "$WORK/$2.html"
 	echo '<img src="https://rs.bcc.media/pixel/v1/page?writeKey=2KXgBHx2TYFMi8VPWa4bcWbbBt2&anonymousId=anon&name=manus-'$1'" />' >> "$WORK/$2.html"
 	cat "$SCRIPT_DIR/tail.html" >> "$WORK/$2.html"
-	cp -v "$SCRIPT_DIR/index.html" "$WORK"
 	rm -v "$WORK/$2.temp.html"
 }
 
@@ -50,8 +49,46 @@ for FOLDER in $(find . -not -name ".*" -maxdepth 1 -type d); do
 
 	pushd  "$1/$FOLDER"
 	FOLDER=$(basename $FOLDER)
-	process $(ls *ENG*) en
-	process $(ls *NOR*) no
+
+
+	cat "$SCRIPT_DIR/index.head.html" > "$WORK/index.html"
+
+	if compgen -G "*ENG*" > /dev/null; then
+		process $(ls *ENG*) en
+		echo "<ul><a href="en.html">English</a></ul>" >> $WORK/index.html
+	fi
+
+	if compgen -G "*NOR*" > /dev/null; then
+		process $(ls *NOR*) no
+		echo "<ul><a href="no.html">Norsk</a></ul>" >> $WORK/index.html
+	fi
+
+	if compgen -G "*DEU*" > /dev/null; then
+		process $(ls *DEU*) de
+		echo "<ul><a href="de.html">Deutsch</a></ul>" >> $WORK/index.html
+	fi
+
+	if compgen -G "*FRA*" > /dev/null; then
+		process $(ls *FRA*) fr
+		echo "<ul><a href="fr.html">Français</a></ul>" >> $WORK/index.html
+	fi
+
+	if compgen -G "*HUN*" > /dev/null; then
+		process $(ls *HUN*) hu
+		echo "<ul><a href="hu.html">Magyar</a></ul>" >> $WORK/index.html
+	fi
+
+	if compgen -G "*POL*" > /dev/null; then
+		process $(ls *POL*) pl
+		echo "<ul><a href="pl.html">Polski</a></ul>" >> $WORK/index.html
+	fi
+
+
+
+	echo '<img src="https://rs.bcc.media/pixel/v1/page?writeKey=2KXgBHx2TYFMi8VPWa4bcWbbBt2&anonymousId=anon&name=index-'$FOLDER'" />' >> "$WORK/index.html"
+	cat "$SCRIPT_DIR/index.tail.html" >> "$WORK/index.html"
+
+
 	destination $FOLDER
 	mkdir -vp "$OUTPUT/$DST"
 	mv -v "$WORK/"*".html" "$OUTPUT/$DST"
