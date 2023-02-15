@@ -1,0 +1,477 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "extraparam1",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ip_version",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ip",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "user_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "exit_type_crash",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "user_agent",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "error_player_code",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "app_release_version",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "player_version",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "plugin_version",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "os_version",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "app_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "os",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "user_uuid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "device_model",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "error_player_desc",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "device_vendor",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_subtitles",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "player",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_language",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_genre",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "error_metadata",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_gracenote_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_title_episode",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_tv_show",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "contracted_resolution",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "region",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "codec_settings",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "drm",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "browser",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "title2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "user_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "title",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "browser_ver",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "asn",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "type_view",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "media_resource_domain",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "node_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_playbacktype",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_channel",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isp",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lat",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "throughput",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "streaming_protocol",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "state_province",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "offline_view",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_saga",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_package",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "country_code",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "view_status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "event_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "avg_fps",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "avg_latency",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "codec_profile",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "error_type",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "play_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "video_codec",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "device_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "in_stream_error_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "seek_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "duration",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "transaction_code",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "token",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "out_bytes",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "metadata",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "device",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "effective_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "seek_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "viewtime",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "completion_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "buffer_underruns",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "extraparam2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "playbackstalls",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lon",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "domain",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "container_format",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "pause_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "happiness_score",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "buffer_underrun_total",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_season",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "postal_code",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "node_host",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rendition",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "content_imdb_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "buffer_ratio",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "init_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "avgbuffertime",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "connection_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "startup_time",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "audio_codec",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cdn_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "avg_bitrate",
+    "type": "FLOAT"
+  }
+]

@@ -13,3 +13,7 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.env
+bq-importer/bq-importe*
+.DS_Store
